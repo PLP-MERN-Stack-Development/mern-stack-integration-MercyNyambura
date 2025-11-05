@@ -1,2 +1,6 @@
 .env
+<<<<<<< HEAD
 node_modules
+=======
+node modules
+>>>>>>> cad1980c755a72595e0b382d5a74ef2eb4fc4f23
