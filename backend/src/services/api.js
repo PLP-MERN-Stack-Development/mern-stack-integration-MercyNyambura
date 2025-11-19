@@ -1,4 +1,4 @@
-// api.js - API service for making requests to the backend
+
 
 import axios from 'axios';
 

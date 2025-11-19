@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const { connectDB } = require("./config/db");
-const noteRouter = require("./routes/postRoutes");
+const postRouter = require("./routes/postRoutes");
 
 
 dotenv.config();
@@ -18,7 +18,7 @@ app.use(cors({
 
 app.use(express.json());
 
-app.get("/", (req, res) => res.send("Notes API is up and running..."));
+app.get("/", (req, res) => res.send("Posts API is up and running..."));
 app.use("/api/Posts", postRouter);
 
 
